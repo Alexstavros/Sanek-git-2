@@ -1,29 +1,17 @@
-# print(2 + 2)
-# print(2 - 2)
-# print(2 * 2)
-# print(2 / 2)
-# print(2 ** 12)
-# print(5 // 2)
-# print(5 % 3)
+greeting = "Hello"
+first_name = "Vanysha"
+last_name = "Savchuk"
+exclamation_sign = "!"
+white_space = " "
+print(greeting + white_space + first_name + " " + last_name + exclamation_sign)
+long_string = "This is long string"
+print(long_string)
 
-# x = 5
-# print (x)
-# x = 'Hellow!'
-# print (x)
-# x = 7
-# type_of_variable = type(x)
-# print(type_of_variable)
-
-# y = 6
-# print(x + y)
-# print(x - y)
-# print(x * y)
-# print(x / y)
-# print(x ** y)
-
-
-credit = 1000
-credit_rate = 10
-number_of_years = 5
-final_sum = credit + credit / 100 * credit_rate * number_of_years
-print(final_sum)
+some_string = "I'm a programmer"
+print(some_string)
+another_string = "I want to learn \"Pynhon\""
+print(another_string)
+string_with_new_lines = "Hellow! \nMy name is YouRa"
+print(string_with_new_lines)
+numbers = "123456789"
+print(numbers)
