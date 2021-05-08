@@ -9,5 +9,25 @@
 #print(car_prices)
 #car_prices.clear()
 #print(car_prices)
+###############################################################
 
-папа ето не вьо что я сегодня сделал я прошол lists удалил и щас делаю dictionaries
+person = {
+    'first name' : 'Jack',
+    'last name' : 'Brown',
+    'age' : 43,
+    'hobbies': ['football', 'singing', 'phone'],
+    'children' : {'son': 'Mickhael', 'dauther': 'Pamela', } 
+}
+print(person['age'])
+print(person['hobbies'])
+print(person['hobbies'][2])
+
+children = person['children']
+print(person['children']['son'])
+
+person['car'] = 'Mazda'
+person['hobbies'][0] = 'basketball'
+
+print(person.keys())
+print(person.values())
+print(person.items())
