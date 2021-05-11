@@ -1,33 +1,25 @@
-#car_prices = {'opel' : 5000, 'tayota' : 7000, 'bmw' : 10000}
-#print(car_prices)
-#print(car_prices['tayota'])
-#car_prices['mazda'] = 4000
-#print(car_prices)
-#car_prices['opel'] = 2000
-#print(car_prices)
-#del car_prices['tayota'] 
-#print(car_prices)
-#car_prices.clear()
-#print(car_prices)
-###############################################################
+#tuple_1 = 1, 2, 3
+#tuple_2 = ('one, hello')
+#tuple_3 = (3, 2.3, 'three')
+#
+#new_tuple = (tuple_1[0], 3, tuple_1[-1])
+#print(new_tuple)
+#
+#
+#print(tuple_1[1])
+#print(type(tuple_1))
+#print(tuple_2)
+#print(tuple_3)
 
-person = {
-    'first name' : 'Jack',
-    'last name' : 'Brown',
-    'age' : 43,
-    'hobbies': ['football', 'singing', 'phone'],
-    'children' : {'son': 'Mickhael', 'dauther': 'Pamela', } 
-}
-print(person['age'])
-print(person['hobbies'])
-print(person['hobbies'][2])
+x = y = z = 12
+x, y, z = 12, 13, 14
 
-children = person['children']
-print(person['children']['son'])
+print(x, y, z)
 
-person['car'] = 'Mazda'
-person['hobbies'][0] = 'basketball'
+person_tuple = ('John', 'Smith', 1986)
+first_name, last_name, year_of_birth = person_tuple
 
-print(person.keys())
-print(person.values())
-print(person.items())
+print(first_name, last_name, year_of_birth)
+
+t1 = (1, 2, 5, 1, 7, 9)
+print(t1.count(5))
