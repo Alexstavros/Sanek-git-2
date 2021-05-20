@@ -1,35 +1,29 @@
-#print(1 < 2)
-#print(type(True))
-#print(type(False))
+x = 1
+y = 2
 
-#print(1 == 1)
-#print(1 == 2)
-#print('Hello' == 'Hello')
-#print('Hello' == 'hello')
+#print(x > 1)
+#print(y > 1)
 
-#print(1 != 1)
-#print(1 != 2)
-#print('Hello' != 'Hello')
-#print('Hello' != 'hello')
+#and, or, not
+print(x > 1 and y > 1)
+print(x > 1 or y > 1)
+print(not x > 1)
+print(not y > 1)
 
-#print(1 < 2)
-#print(1 > 2)
-#print(2 >= 2)
-#print(3 >= 2)
-#print(2 <= 2)
-#print(3 <= 2)
+print(True and True)
+print(True or True)
+print(not True)
 
-#print(ord('a'))
-#print(ord('b'))
-#print('a' > 'b')
-#print('hi' > 'hello')
-#print(ord('i'))
-#print(ord('e'))
+print(False and False)
+print(False or False)
+print(not False)
 
-x = 10
-y = 23
+print(True and False)
+print(True or False)
 
-print(x < y)
-print(x > y)
-print(x == y)
-print(x != y)
+name = 'John'
+age = 12
+is_married = False
+
+if age> 18 or is_married == False:
+    print('Hi {}! You can find a girl or your dream here!'.format(name))
