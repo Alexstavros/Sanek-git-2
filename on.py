@@ -1,29 +1,8 @@
-x = 1
-y = 2
+x = 3
 
-#print(x > 1)
-#print(y > 1)
-
-#and, or, not
-print(x > 1 and y > 1)
-print(x > 1 or y > 1)
-print(not x > 1)
-print(not y > 1)
-
-print(True and True)
-print(True or True)
-print(not True)
-
-print(False and False)
-print(False or False)
-print(not False)
-
-print(True and False)
-print(True or False)
-
-name = 'John'
-age = 12
-is_married = False
-
-if age> 18 or is_married == False:
-    print('Hi {}! You can find a girl or your dream here!'.format(name))
+if x > 3:
+    print('x > 3')
+elif x < 3:
+    print('x < 3')
+else:
+    print('x == 3')
