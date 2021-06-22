@@ -22,5 +22,34 @@
 #     if letter != '0':
 #      print(letter)
 
-for letter in 'Hello Python!':
-    print('One more letter!')
+# for letter in 'Hello Python!':
+#     print('One more letter!')
+
+# tuple_list = [('a', 'b'), ('c', 'd'), ('e', 'f')]
+# for item in tuple_list:
+#     print(item)
+#     for letter_1, letter_2 in tuple_list:
+#         print(letter_1, letter_2)
+#     for letter_1, letter_2 in tuple_list:
+#         print(letter_1)
+#         print(letter_1)
+
+# tuple_list_1 = [('a', 'b', 1), ('c', 'd', 4), ('e', 'f', 5)]
+#     for letter_1, letter_2, number in tuple_list_1:
+#         print(letter_1, letter_2, number)
+
+# dictionary = {'key1' : 'value1', 'key2' : 'value2', 'key3' : 'value3'}
+# for item in dictionary:
+#     print(item)
+
+# for item in dictionary.items():
+#     print(item)
+
+# for key, value in dictionary.items():
+#     print(key)
+
+# for item in dictionary.items():
+#     print(item)
+
+for _ in range(5):
+    print('Hello!')
