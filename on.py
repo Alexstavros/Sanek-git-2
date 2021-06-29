@@ -1,55 +1,38 @@
-#number_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# for number in number_list:
-#      print(str(number) + ' Hola!')
+# for x in range(3, 11, 3):
+#     print(x)
+# print(range(5))
+# print(list(range(5)))
 
-# for number in number_list:
-#     if number % 2 == 0:
-#         print(number)
-#     else:
-#         print('Hey!')
+# letter_index = 0
+# my_string = 'adafdf'
+# for letter in my_string:
+#     print(letter + 'is at index' + str(letter_index))
+#     letter_index = letter_index + 1
 
-# list_numbers_sum = 0
-# for number in number_list:
-#     list_numbers_sum = list_numbers_sum + number
-# print(list_numbers_sum)
+# my_string = 'adafdf'
+# for index, letter in enumerate(my_string):
+#     print(letter + 'is at index' + str(index))
 
-# greeting = 'Hello Python'
-# for letter in greeting:
-#     if letter != '0':
-#         print(letter)
+# print('a' in 'Jack')
+# print('x' in 'Jack')
+# print(str(1) in 'Jack')
+# print('1' in 'Jack')
 
-# for letter in 'Hello Python!':
-#     if letter != '0':
-#      print(letter)
+# letter_list = ['a', 'b', 'c', True]
+# print('a' in letter_list)
+# print(True in letter_list)
 
-# for letter in 'Hello Python!':
-#     print('One more letter!')
+# dict_1 = {1: 'a', 2: 'b', 3: 'c'}
+# print(1 in dict_1)
+# print(1 in dict_1.keys())
+# print(4 in dict_1.keys())
+# print('c' in dict_1.values())
+# print('z' in dict_1.values())
 
-# tuple_list = [('a', 'b'), ('c', 'd'), ('e', 'f')]
-# for item in tuple_list:
-#     print(item)
-#     for letter_1, letter_2 in tuple_list:
-#         print(letter_1, letter_2)
-#     for letter_1, letter_2 in tuple_list:
-#         print(letter_1)
-#         print(letter_1)
+from random import shuffle
+my_list = [1, 3, 56, 4]
+shuffle(my_list)
+print(my_list)
 
-# tuple_list_1 = [('a', 'b', 1), ('c', 'd', 4), ('e', 'f', 5)]
-#     for letter_1, letter_2, number in tuple_list_1:
-#         print(letter_1, letter_2, number)
-
-# dictionary = {'key1' : 'value1', 'key2' : 'value2', 'key3' : 'value3'}
-# for item in dictionary:
-#     print(item)
-
-# for item in dictionary.items():
-#     print(item)
-
-# for key, value in dictionary.items():
-#     print(key)
-
-# for item in dictionary.items():
-#     print(item)
-
-for _ in range(5):
-    print('Hello!')
+from random import randint
+print(randint (12,20))
