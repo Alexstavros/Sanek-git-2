@@ -1,38 +1,44 @@
-# for x in range(3, 11, 3):
-#     print(x)
-# print(range(5))
-# print(list(range(5)))
+# print(3 + 3)
+# print(3 * 2)
+# print(3 / 3)
+# print(2 ** 3)
+# print(3 // 2)
+# print(2 % 3)
+# x = 5
+# print(x)
+# x = "hellow"
+# print(x)
+# x = 7
+# type_of_variable = type(x)
+# print(type_of_variable)
+# x = 10
+# y = 2
+# print(x + y)
+# print(x - y)
+# print(x * y)
+# print(x / y)
+# print(x // y)
+# print(x ** y)
+# print(x % y)
+# credit = 1000
+# credit_rate = 10
+# number_of_years = 5
+# final_sum = credit + credit / 100 * credit_rate * number_of_years
 
-# letter_index = 0
-# my_string = 'adafdf'
-# for letter in my_string:
-#     print(letter + 'is at index' + str(letter_index))
-#     letter_index = letter_index + 1
+# print(final_sum)
+# greeting = "hello"
+# first_name = "jack"
+# last_namen = "white"
+# exclamation_sign ="!"           
+# white_space = ""
+# whole_sentence = greeting + first_name + " "  + last_namen + white_space
+# print(whole_sentence)
+# long_strind = 'this is the long string'
+# print(long_strind)
 
-# my_string = 'adafdf'
-# for index, letter in enumerate(my_string):
-#     print(letter + 'is at index' + str(index))
-
-# print('a' in 'Jack')
-# print('x' in 'Jack')
-# print(str(1) in 'Jack')
-# print('1' in 'Jack')
-
-# letter_list = ['a', 'b', 'c', True]
-# print('a' in letter_list)
-# print(True in letter_list)
-
-# dict_1 = {1: 'a', 2: 'b', 3: 'c'}
-# print(1 in dict_1)
-# print(1 in dict_1.keys())
-# print(4 in dict_1.keys())
-# print('c' in dict_1.values())
-# print('z' in dict_1.values())
-
-from random import shuffle
-my_list = [1, 3, 56, 4]
-shuffle(my_list)
-print(my_list)
-
-from random import randint
-print(randint (12,20))
+# some_string = "I'm a programmer"
+# print(some_string)
+# another_string = 'I want to lern Python'
+# print(another_string)
+# string_with_new_lines = "Hello! \n  My name is ivan"
+# print(string_with_new_lines)
