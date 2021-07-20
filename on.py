@@ -10,3 +10,8 @@ numbers = "1\t23\t4567"
 print(numbers)
 some_text = "\t Hello! /nI'm very glat to see you"
 print(some_text)
+
+string_with_triple_quotes = """this is ' with text "triple quotes" """
+anoter_string_with_triple_quotes = '''this is ' with text "triple quotes '''
+print(string_with_triple_quotes)
+print(anoter_string_with_triple_quotes)
