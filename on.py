@@ -15,3 +15,10 @@ string_with_triple_quotes = """this is ' with text "triple quotes" """
 anoter_string_with_triple_quotes = '''this is ' with text "triple quotes '''
 print(string_with_triple_quotes)
 print(anoter_string_with_triple_quotes)
+
+greeting = 'hello python'
+greeting_length = len(greeting)
+print(greeting_length)
+
+print(greeting[0])
+print(greeting[6])
