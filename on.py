@@ -55,3 +55,22 @@ greeting = 'Hello!'
 greeting = greeting + ' Python!'
 print(greeting)
 
+
+yummy = 'Yum'
+print(yummy * 3)
+
+yummy = 'Yum'
+print(yummy * 2)
+
+print(yummy.upper())
+print(yummy.lower())
+print(yummy)
+
+long_string = 'This is the long string'
+print(long_string.split())
+
+print(1 + 1)
+print('1' + '1')
+age = 23
+print('Jack is ' + str(age) + 'years old.')
+print('Jack is ' + str(23) + 'years old.')
