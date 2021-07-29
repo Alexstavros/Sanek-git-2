@@ -74,3 +74,7 @@ print('1' + '1')
 age = 23
 print('Jack is ' + str(age) + 'years old.')
 print('Jack is ' + str(23) + 'years old.')
+
+name = 'jack'
+age = 23
+name_and_age = 'my name is {0}.'
