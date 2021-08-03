@@ -77,4 +77,9 @@ print('Jack is ' + str(23) + 'years old.')
 
 name = 'jack'
 age = 23
-name_and_age = 'my name is {0}.'
+name_and_age = 'my name is {0}.I\'m {1} years old.'.format(name, age)
+print(name_and_age)
+name_and_age = 'my name is {0}.I\'m {1} years old.'.format('jack', 23)
+print(name_and_age)
+name_and_age = 'my name is {}.I\'m {} years old.'.format('jack', 23)
+print(name_and_age)
