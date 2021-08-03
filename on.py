@@ -83,3 +83,4 @@ name_and_age = 'my name is {0}.I\'m {1} years old.'.format('jack', 23)
 print(name_and_age)
 name_and_age = 'my name is {}.I\'m {} years old.'.format('jack', 23)
 print(name_and_age)
+week_days = 'There are 7 days in a week'
