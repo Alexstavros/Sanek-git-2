@@ -83,6 +83,10 @@ name_and_age = 'my name is {0}.I\'m {1} years old.'.format('jack', 23)
 print(name_and_age)
 name_and_age = 'my name is {}.I\'m {} years old.'.format('jack', 23)
 print(name_and_age)
-week_days = 'There are 7 days in a week: {}, {}, {}, {}, {}, {}, {}.'\
-.format'('Monday', 'Tuesday', 'Wetnesday', 'Thusday', 'Friday', 'Saturday', 'Sunday')
+week_days = 'There are 7 days in a week: {su}, {mo}, {tu}, {we}, {th}, {fr}, {sa}.'\
+.format(mo = 'Monday', we = 'Wetnesday', th = 'thursday', tu = 'Thuesday', fr = 'Friday', su = 'Sunday', sa = 'Saturday')
+print(week_days)
 
+float_result = 1000 / 7
+print(float_result)
+print('The result of division is {0:}'.format(float_result))
